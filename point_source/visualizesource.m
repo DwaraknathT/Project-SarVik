@@ -28,215 +28,16 @@
 %
 
 %randomly generated dataset of 50 points in space
+m=csvread('dose.csv');
+x=csvread('coord.csv');
+x1=x(:,1);
+y1=x(:,2);
+z1=x(:,3);
 
-xcol=[22     
-2
-36
-20
-4
-46
-20
-38
-45
-44
-49
-3
-15
-48
-22
-16
-27
-50
-25
-7
-31
-5
-0
-44
-39
-48
-14
-45
-34
-18
-37
-28
-19
-38
-49
-40
-0
-3
-26
-48
-32
-11
-17
-4
-13
-22
-8
-27
-6
-22];
-ycol=[31
-50
-30
-41
-37
-38
-46
-0
-17
-1
-15
-10
-43
-21
-35
-46
-10
-37
-32
-43
-4
-23
-38
-6
-5
-29
-33
-5
-11
-20
-1
-4
-16
-48
-18
-21
-40
-15
-43
-34
-14
-26
-48
-20
-24
-30
-37
-44
-36
-31];  
- zcol=[46
-20
-8
-23
-18
-43
-5
-43
-42
-48
-26
-22
-17
-43
-19
-3
-24
-46
-35
-25
-5
-3
-33
-12
-43
-15
-26
-44
-44
-6
-16
-14
-21
-14
-1
-1
-1
-16
-37
-23
-17
-16
-11
-3
-43
-22
-17
-46
-33
-46];
-
-
- %radius calculated from forward boltzmann transport equation 
-
-rdd=[59.76143047 
-59.76143047 
-54.23261445
- 47.67312946 
-51.2989176 
- 41.16934848
- 74.53559925 
-50.63696835 
-57.73502692
- 63.2455532 
- 64.54972244 
-57.73502692
- 24.32521277 
-48.79500365 
-67.41998625 
-45.64354646 
-48.79500365 
-37.52933125
- 76.69649888 
-53.45224838 
-50 
-31.6227766  
-23.70227316 
-50.63696835
-46.1265604  
-58.72202195 
-57.73502692 
-44.28074428 
-63.2455532  
-56.79618342
-27.52409413 
-40.16096645 
-31.6227766  
-32.44428423 
-63.2455532  
-51.98752449
-45.17539515 
-40.16096645 
-22.14037214
-62.01736729 
-63.2455532  
-38.92494721
-32.44428423 
-51.98752449 
-20.62842493 
-50.63696835 
-43.03314829 
-41.52273993
- 69.00655593
- 49.38647983];
-
-
-
-sphere3d(xcol,ycol,zcol,rdd,[],0.1)
+%y=csvread('coord.csv',0,1);y=y.';
+%z=csvread('coord.csv',0,2);z=z.';
+sphere3d(x1,y1,z1,m,[],0.01)
+%plot(plot::Spherical([1, u, v], u = 0..2*PI, v = 0..PI))
 
 % the last parameter is to make the sphere transparent.
 
@@ -263,7 +64,7 @@ else
     N=floor(varargin{3}); 
 end
 % Use 3 (N+1)x(N+1) arrays to generate the sphere with the largest radii.
-% There´s no need to render the smaller spheres/ellipsoids as detailed as
+% ThereÂ´s no need to render the smaller spheres/ellipsoids as detailed as
 % the largest one, scale them linearly against R-max. Let the smallest N  be M 
 
 
@@ -276,8 +77,8 @@ h=zeros(1,numel(x));
 % supplied bubble or ellipsoid radiis for x,y,z
 % hence the input in column vector fashion above. 
 % You can also extract data from a csv file . 
-
-x=x(:);
+%x=x';
+%x=x(:);
 
 % Set up equal axis, set DoubleBuffer on and add a grid
 axis equal;set(gcf,'DoubleBuffer','on');grid on;
