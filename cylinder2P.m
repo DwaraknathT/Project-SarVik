@@ -10,11 +10,6 @@
 %  Returns:    X - The x-coordinates of each facet in the cylinder.
 %              Y - The y-coordinates of each facet in the cylinder.
 %              Z - The z-coordinates of each facet in the cylinder.
-%
-%  Author:     Luigi Barone
-%  Date:       9 September 2001
-%  Modified:   Per Sundqvist July 2004
-
 function [X, Y, Z] = cylinder2P(R, N,r1,r2)
 
     % The parametric surface will consist of a series of N-sided
@@ -38,7 +33,8 @@ function [X, Y, Z] = cylinder2P(R, N,r1,r2)
     Z = zeros(m, N);
     
     v=(r2-r1)/sqrt((r2-r1)*(r2-r1)');    %Normalized vector;
-    %cylinder axis described by: r(t)=r1+v*t for 0<t<1
+    %cylinder axis described by: 
+    %r(t)=r1+v*t% for 0<t<1
     R2=rand(1,3);              %linear independent vector (of v)
     x2=v-R2/(R2*v');    %orthogonal vector to v
     x2=x2/sqrt(x2*x2');     %orthonormal vector to v
