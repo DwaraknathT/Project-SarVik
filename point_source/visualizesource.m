@@ -63,8 +63,7 @@ if nargin <7 || isempty(varargin{3})
 else
     N=floor(varargin{3}); 
 end
-% Use 3 (N+1)x(N+1) arrays to generate the sphere with the largest radii.
-% There´s no need to render the smaller spheres/ellipsoids as detailed as
+
 % the largest one, scale them linearly against R-max. Let the smallest N  be M 
 
 
@@ -116,5 +115,3 @@ view(3);
 % outputs?
 if nargout>0
     handles=h';
-end
-end
