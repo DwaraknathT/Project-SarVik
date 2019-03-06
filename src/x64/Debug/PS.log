@@ -1,0 +1,57 @@
+﻿  main.cpp
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(105): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(133): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(138): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(139): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(140): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\camera.h(141): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\callbacks.h(54): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\callbacks.h(55): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\callbacks.h(60): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(46): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(47): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(61): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(62): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\sphere.h(194): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(44): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(45): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(64): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(65): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(79): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(80): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\cylinder.h(264): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(73): warning C4473: 'fscanf' : not enough arguments passed for format string
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(73): note: placeholders and their parameters expect 4 variadic arguments, but 1 were provided
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(73): note: the missing variadic argument 2 is required by format string '%s'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(82): warning C4473: 'fscanf' : not enough arguments passed for format string
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(82): note: placeholders and their parameters expect 4 variadic arguments, but 1 were provided
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(82): note: the missing variadic argument 2 is required by format string '%s'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(91): warning C4473: 'fscanf' : not enough arguments passed for format string
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(91): note: placeholders and their parameters expect 4 variadic arguments, but 1 were provided
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(91): note: the missing variadic argument 2 is required by format string '%s'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(100): warning C4473: 'fscanf' : not enough arguments passed for format string
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(100): note: placeholders and their parameters expect 4 variadic arguments, but 1 were provided
+  c:\users\dwaraknath\source\repos\ps\ps\simulation.h(100): note: the missing variadic argument 2 is required by format string '%s'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(118): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(119): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(120): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(121): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(73): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(82): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\dwaraknath\source\repos\ps\ps\simulation.h(100): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+c:\users\dwaraknath\source\repos\ps\ps\render.h(59): warning C4996: 'cudaGLSetGLDevice': was declared deprecated
+  c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\cuda_gl_interop.h(305): note: see declaration of 'cudaGLSetGLDevice'
+c:\users\dwaraknath\source\repos\ps\ps\render.h(45): warning C4101: 'deviceProp': unreferenced local variable
+  PS.vcxproj -> C:\Users\Dwaraknath\source\repos\PS\x64\Debug\PS.exe
