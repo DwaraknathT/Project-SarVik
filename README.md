@@ -6,3 +6,10 @@ Radiation protection program can take corrective measures for removal of unwante
 
 ### Problem Statement by Department of Atomic Energy
 
+## screenshots 
+
+### 3D source 
+![Image](https://raw.githubusercontent.com/DwaraknathT/Project-Sarvik/master/assets/3d.png)
+
+### 2D plane source 
+![Image](https://raw.githubusercontent.com/DwaraknathT/Project-Sarvik/master/assets/plane.png)
